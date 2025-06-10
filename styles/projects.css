@@ -1,0 +1,38 @@
+.project-item {
+    padding: 25px;
+    border-radius: 25px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background:
+            radial-gradient(black 15%, transparent 16%) 0 0,
+            radial-gradient(black 15%, transparent 16%) 8px 8px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+            radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+.project-list {
+    font-family: "JetBrains Mono", sans-serif;
+    display: grid;
+    margin: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+    row-gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.project-image {
+    margin: auto;
+    height: 128px;
+    width: 128px;
+    border-radius: 10px;
+}
+#htl_auth {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.75)), url("../images/htl_auth_background.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: left;
+    background-position-y: top;
+}

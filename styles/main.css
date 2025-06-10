@@ -1,0 +1,137 @@
+h1 {
+    margin-block: 0.3em;
+    font-size: 4em;
+}
+h2 {
+    margin-block: 0.3em;
+    font-size: 2em;
+}
+h3 {
+    margin-block: 0.3em;
+    font-size: 1em;
+}
+
+body {
+    overflow-x: hidden;
+    color: lightgrey;
+    background-color: #2b2d30;
+}
+article {
+    font-family: 'JetBrains Mono', monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 25px;
+}
+footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+header {
+    font-family: "Geo", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+@font-face {
+    font-family: "Geo", sans-serif;
+    src: url("../fonts/Geo-Regular.ttf") format("truetype");
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Foldit';
+    font-style: normal;
+    font-weight: 100 900;
+    src: url("../fonts/Foldit-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Limelight';
+    font-style: normal;
+    src: url("../fonts/Limelight-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url("../fonts/Tourney-VariableFont.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 100 800;
+    font-display: swap;
+    src: url("../fonts/JetBrainsMono-VariableFont.ttf") format('truetype');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.jetbrains-regular {
+    font-family: 'JetBrains Mono', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.geo-regular {
+    font-family: "Geo", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.geo-regular-italic {
+    font-family: "Geo", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.foldit-regular {
+    font-family: "Foldit", sans-serif;
+    font-weight: 400;
+}
+
+.limelight-regular {
+    font-family: "Limelight", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.header-name {
+    margin: auto 5px auto 5px;
+    font-family: "Tourney", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+
+.nav {
+    padding: 10px;
+    width: 100%;
+    background-color: #1f1f21;
+    align-self: center;
+    align-content: center;
+    display: inline-flex;
+}
+
+.avatar {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5%;
+}
+
+.nav-item {
+    align-self: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0 10px 0 10px;
+    font-size: 2em;
+}
+
+.nav-item:hover {
+    background-color: #0e0e0e;
+}
