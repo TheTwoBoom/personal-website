@@ -15,6 +15,7 @@ body {
     overflow-x: hidden;
     color: lightgrey;
     background-color: #2b2d30;
+    min-height: 100%;
 }
 article {
     font-family: 'JetBrains Mono', monospace;
@@ -28,6 +29,7 @@ footer {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+    height: 50px;
 }
 header {
     font-family: "Geo", sans-serif;
@@ -134,4 +136,42 @@ a {
 
 .nav-item:hover {
     background-color: #0e0e0e;
+}
+
+#htl_auth {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.75)), url("../images/htl_auth_background.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+#privacypolicy-container {
+    width: 75%;
+    margin: 3%
+}
+#footer-grid {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: repeat(5, auto);
+    grid-auto-rows: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.footer-item {
+    height: 50px;
+    align-content: center;
+}
+.footer-item:hover {
+    background-color: #3a3a3a;
+}
+footer {
+    position: sticky;
+    border-radius: 10px;
+    width: 75%;
+    background-color: #282828;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
