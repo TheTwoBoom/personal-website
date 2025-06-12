@@ -16,7 +16,7 @@
     text-align: center;
 }
 #projects {
-    width: 75%;
+    width: 25%;
     margin: auto;
     display: grid;
     grid-auto-flow: column;
